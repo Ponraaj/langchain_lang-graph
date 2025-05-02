@@ -1,0 +1,19 @@
+[project]
+name = "basic-chat"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9,<4.0"
+dependencies = [
+    "dotenv (>=0.9.9,<0.10.0)",
+    "langchain-google-genai (>=2.1.4,<3.0.0)",
+    "google-cloud-firestore (>=2.20.2,<3.0.0)",
+    "langchain-google-firestore (>=0.5.0,<0.6.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
